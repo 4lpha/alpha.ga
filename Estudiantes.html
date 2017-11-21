@@ -1,0 +1,142 @@
+<?php
+    session_start();
+    
+    if($_SESSION["user"] == null || $_SESSION["user"] == ""){
+    echo "no";
+    die();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>&#120514;lpha</title>
+    <style>
+        #cabecera {
+            background-color: teal;
+            color: darkslategray;
+        }
+        #alpha {
+            color: #ffffff;
+            font-size: 1.5em;
+        }
+        body{
+            background-color: #b2dfdb;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row" id="cabecera">
+            <div class="col s12">
+                <h1 class="center-align"><strong id="alpha">&#120514;</strong><strong>lpha</strong></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Fundamentos</span>
+                        <p>Numeros reales<br>Exponentes y radicales<br>Expresiones algebraicas, racionales
+                            <br>Ecuaciones</p>
+                    </div>
+                    <div class="card-reveal">
+                        <h1 class="card-title activator">Tema 1</h1>
+                        clkncsssssaaaaaclakscklclkncsssssaaaaaclakscklclkncsssssaaaaaclaksckl
+                        clkncsssssaaaaaclakscklclkncsssssaaaaaclakscklclkncsssssaaaaaclaksckl
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="Tema.html">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Funciones</span>
+                        <p>Una función f es una regla que asigna a cada elemento x de un conjunto A exactamente
+                            un elemento, llamado f(x), de un conjunto B.</p>
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Funciones polinomiales y racionales</span>
+                        <p>Las funciones definidas por expresiones de polinomios se denominan funciones
+                            polinomiales.<br>
+                            Una función racional es una función de la forma r(x) = P(x) / Q(x) donde P y Q son funciones polinomiales.</p>
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Funciones exponenciales y logaritmicas</span>
+                        <p>-Las exponenciales son funciones, como f(x) = 2<sup>x</sup>, donde la variable independiente está
+                            en el exponente.<br>-La función logarítmica en base a es la función inversa de la exponencial en base a.
+                             f(x) = log<sub>a</sub> x donde a>0 , a!=1</p>
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Funciones trigonometricas</span>
+                        <p>Son funciones establecidas con el fin de extender la definición de las razones trigonométricas
+                            a todos los números reales y complejos.
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <div class="card teal lighten-1">
+                    <div class="card-content">
+                        <span class="card-title">Sistemas de ecuaciones</span>
+                        <p>es un conjunto de ecuaciones lineales (es decir, un sistema de ecuaciones en donde cada ecuación
+                            es de primer grado), definidas sobre un cuerpo o un anillo conmutativo.</p>
+                    </div>
+                    <div class="card-action">
+                        <a style="color: white" href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s5"></div>
+            <div class="col s2">
+                <a href="Prueba.php" class="waves-effect waves-light btn">Resolver test</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tema</title>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+    <style>
+        #cabecera {
+            background-color: teal; /* Green */
+            color: darkslategray;
+        }
+        #alpha {
+            color: #ffffff;
+            font-size: 1.5em;
+        }
+        body{
+            background-color: #b2dfdb;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row" id="cabecera">
+            <div class="col s12">
+                <h1 class="center-align"><strong id="alpha">&#120514;</strong><strong>lpha</strong></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2>Potenciación</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <p>
+
+            	la potenciación es un caso particular de la multiplicación, en otros contextos se amplía su significado. La potenciación es una operación matemática entre dos términos denominados: base a y exponente n. Se escribe an y se lee usualmente como «a elevado a la n». Hay algunos números especiales, como el 2, al cuadrado o el 3, que le corresponde al cubo. Nótese que en el caso de la potenciación la base y el exponente pueden pertenecer a conjuntos diferentes, en un anillo totalmente general la base será un elemento del anillo pero el exponente será un número natural que no tiene por qué pertenecer al anillo. En un cuerpo el exponente puede ser un número entero.<br>
+
+            	<h5>Potencias de exponente natural</h3><br>
+
+				1. Un número elevado a 0 es igual a 1.<br>
+
+				a0 = 1<br>
+
+				60 = 1<br><br>
+
+				2. Un número elevado a 1 es igual a sí mismo.<br>
+
+				a1 = a<br>
+
+				61 = 6<br>
+
+				3. Producto de potencias con la misma base:<br>
+
+				Es otra potencia con la misma base y cuyo exponente es la suma de los exponentes.<br>
+
+				am · a n = am+n<br>
+
+				35 · 32 = 35+2 = 37<br><br>
+
+				4. División de potencias con la misma base:<br>
+
+				Es otra potencia con la misma base y cuyo exponente es la diferencia de los exponentes.<br>
+
+				am : a n = am - n<br>
+
+				35 : 32 = 35 - 2 = 33<br><br>
+
+				5. Potencia de una potencia:<br>
+
+				Es otra potencia con la misma base y cuyo exponente es el producto de los exponentes.<br>
+
+				(am)n = am · n <br> 
+
+				(35)3 = 315 <br><br>
+
+				6. Producto de potencias con el mismo exponente:<br>
+
+				Es otra potencia con el mismo exponente y cuya base es el producto de las bases.<br>
+
+				an · b n = (a · b) n<br>
+
+				25 · 45 = 85<br><br>
+
+				7. Cociente de potencias con el mismo exponente:<br>
+
+				Es otra potencia con el mismo exponente y cuya base es el cociente de las bases.<br>
+
+				an : bn = (a : b)n<br>
+
+				64 : 34 = 24<br>
+				
+            	</p>
+        </div>
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s4">
+                <h4>Ejemplo 1</h4>
+                <p>4^5 = 1024<br><br>
+
+				Aquí, la base a es 4, y el exponente n es 5.<br>
+				como se dijo anteriormente se multiplica la base (en este caso 4) por si misma el numero de veces
+				que indica el exponente.<br>
+				4 * 4 * 4 * 4 * 5 = 1024
+
+            </div>
+            <div class="col s1"></div>
+            <div class="col s4">
+                <h4>Ejemplo 2</h4>
+                <p>(3 * 5) ^ 2</p>
+
+                Aqui se prioriza la operacion que se encuentra en los parentesis y posteriormente el resultado de 
+                esta se multiplica por si misma el numero de veces que indica el exponente (en este caso 2).<br>
+
+                3 * 5 = 15<br>
+                15 * 15 = 225
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s3">
+                <a href="Prueba.php" class="waves-effect waves-light btn">Resolver test</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
