@@ -1,4 +1,4 @@
 # alpha.ga
-alpha es una pagina web para ayudar a los estudiantes de pre calculo
+𝛂lpha es un software desarrollado con el objetivo de facilitar el aprendizaje de los conceptos basicos del calculo diferencial para asi facilitar el inicio de los estudiantes en la universidad.
 
-4lpha.ga
+www.4lpha.ga
